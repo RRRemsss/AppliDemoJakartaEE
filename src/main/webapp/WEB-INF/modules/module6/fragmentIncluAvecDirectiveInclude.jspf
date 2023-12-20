@@ -1,0 +1,13 @@
+<h3>Voici la valeur lue dans le fichier fragmentIncluAvecDirectiveInclude.jspf:</h3>
+<p>
+<!-- 
+	Attention, ce code ne fonctionnera que si le fragment 
+	est inclu avec la directive include dans le fichier pageAvecInclusions.jsp.
+	
+	En effet, le code de ce fichier est recopié 
+	après la déclaration de la variable variableUtiliseeDansFragment 
+	au moment de la transformation.
+-->
+variableUtiliseeDansFragment=<%=variableUtiliseeDansFragment%>
+</p>
+		
